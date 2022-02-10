@@ -76,3 +76,51 @@ h1{
     color: #f8f8f8;
     cursor: pointer;
 }
+
+@media screen and (max-width: 480px) {
+    .heart{
+        width: 200px;
+        height: 200px;
+
+    }
+
+    .heart::before{
+        width: 200px;
+        height: 200px;
+        background: #f20044;
+        box-shadow: -10px -10px 90px #f20044;
+        top: -50%;
+        border-radius: 170px;
+    }
+    
+    .heart::after{
+        width: 200px;
+        height: 200px;
+        background: #f20044;
+        box-shadow: 10px 10px 90px #f20044;
+        right: -50%;
+        border-radius: 170px;
+    }
+
+    h1{
+        font-size: 14px;
+        text-align: center;
+    }
+
+    .Btn{
+        top: 500px;
+        left: 115px;
+    }
+
+    @keyframes heart {
+        0%{
+            transform: rotate(-45deg) scale(0.8); 
+        }
+        80%{
+            transform: rotate(-45deg) scale(0.5); 
+        }
+        100%{
+            transform: rotate(-45deg) scale(0.4); 
+        }
+    }
+}

@@ -1,3 +1,3 @@
 function Sii(){
-    alert("Ti amo mucho Johanna My Mor");
+    alert("Esa queria Saber, Vamos Siempre adelante-Alvaro Hernandez");
 }
